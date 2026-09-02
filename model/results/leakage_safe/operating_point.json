@@ -1,0 +1,8 @@
+{
+  "method": "robust_max_val_max",
+  "threshold": 2241.683837890625,
+  "threshold_policy": "maximum normal validation score",
+  "score": "maximum training-robust-standardized squared reconstruction error at window end",
+  "window_size": 60,
+  "stride": 5
+}
