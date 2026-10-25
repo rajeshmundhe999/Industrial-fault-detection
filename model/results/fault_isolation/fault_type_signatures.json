@@ -1,0 +1,134 @@
+{
+  "clustering_method": "KMeans(k=5)",
+  "n_alarm_windows": 189,
+  "n_clusters": 5,
+  "pca_variance_explained": 0.5515624284744263,
+  "clusters": {
+    "0": {
+      "n_windows": 16,
+      "n_true_fault": 0,
+      "n_false_alarm": 16,
+      "batches": [
+        94,
+        99
+      ],
+      "mean_score": 432.93829345703125,
+      "dominant_sensor": "Temperature",
+      "sensor_mean_err_z": {
+        "Agitator RPM": 397.5809326171875,
+        "Aeration rate": 315.29052734375,
+        "Sugar feed rate": 355.10748291015625,
+        "Acid flow rate": 193.74192810058594,
+        "Base flow rate": 43.533164978027344,
+        "Heating/cooling water flow": 2685.202880859375,
+        "Dissolved oxygen": 1118.57080078125,
+        "pH": 288.9234619140625,
+        "Temperature": 2935.603271484375
+      },
+      "inferred_fault_type": "Temperature deviation"
+    },
+    "1": {
+      "n_windows": 46,
+      "n_true_fault": 45,
+      "n_false_alarm": 1,
+      "batches": [
+        91,
+        92,
+        98
+      ],
+      "mean_score": 198.4358673095703,
+      "dominant_sensor": "pH",
+      "sensor_mean_err_z": {
+        "Agitator RPM": 132.45584106445312,
+        "Aeration rate": 77.46024322509766,
+        "Sugar feed rate": 125.9870376586914,
+        "Acid flow rate": 95.07391357421875,
+        "Base flow rate": 513.5980224609375,
+        "Heating/cooling water flow": 27.57340431213379,
+        "Dissolved oxygen": 752.7996215820312,
+        "pH": 2020.666259765625,
+        "Temperature": 22.16219139099121
+      },
+      "inferred_fault_type": "pH deviation"
+    },
+    "2": {
+      "n_windows": 35,
+      "n_true_fault": 25,
+      "n_false_alarm": 10,
+      "batches": [
+        93,
+        96,
+        99,
+        100
+      ],
+      "mean_score": 697.112060546875,
+      "dominant_sensor": "Temperature",
+      "sensor_mean_err_z": {
+        "Agitator RPM": 70.8668212890625,
+        "Aeration rate": 195.48910522460938,
+        "Sugar feed rate": 123.50601196289062,
+        "Acid flow rate": 100.59488677978516,
+        "Base flow rate": 184.17147827148438,
+        "Heating/cooling water flow": 589.2183837890625,
+        "Dissolved oxygen": 398.8728942871094,
+        "pH": 56.59736251831055,
+        "Temperature": 7072.8837890625
+      },
+      "inferred_fault_type": "Temperature deviation"
+    },
+    "3": {
+      "n_windows": 46,
+      "n_true_fault": 45,
+      "n_false_alarm": 1,
+      "batches": [
+        89,
+        94,
+        99,
+        100
+      ],
+      "mean_score": 880.0327758789062,
+      "dominant_sensor": "Aeration rate",
+      "sensor_mean_err_z": {
+        "Agitator RPM": 160.02810668945312,
+        "Aeration rate": 10206.6318359375,
+        "Sugar feed rate": 178.83892822265625,
+        "Acid flow rate": 499.42791748046875,
+        "Base flow rate": 209.00347900390625,
+        "Heating/cooling water flow": 165.232177734375,
+        "Dissolved oxygen": 506.4520263671875,
+        "pH": 48.794532775878906,
+        "Temperature": 39.44520950317383
+      },
+      "inferred_fault_type": "Aeration/oxygen deviation"
+    },
+    "4": {
+      "n_windows": 46,
+      "n_true_fault": 25,
+      "n_false_alarm": 21,
+      "batches": [
+        83,
+        91,
+        92,
+        94,
+        95,
+        97,
+        99,
+        100
+      ],
+      "mean_score": 303.1437683105469,
+      "dominant_sensor": "Acid flow rate",
+      "sensor_mean_err_z": {
+        "Agitator RPM": 65.73201751708984,
+        "Aeration rate": 775.4658813476562,
+        "Sugar feed rate": 1115.760986328125,
+        "Acid flow rate": 1131.9521484375,
+        "Base flow rate": 13.834550857543945,
+        "Heating/cooling water flow": 2.589014768600464,
+        "Dissolved oxygen": 47.54220962524414,
+        "pH": 61.298465728759766,
+        "Temperature": 11.248172760009766
+      },
+      "inferred_fault_type": "Acid dosing fault"
+    }
+  }
+}

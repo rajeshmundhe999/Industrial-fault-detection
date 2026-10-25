@@ -1,0 +1,9 @@
+metric,value
+roc_auc,0.8072
+avg_prec,0.227
+f1,0.1939
+recall,0.1306
+precision,0.3763
+event_recall,0.8
+threshold,1699.9918
+n_params,9129

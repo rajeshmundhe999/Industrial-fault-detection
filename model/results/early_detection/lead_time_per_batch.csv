@@ -1,0 +1,11 @@
+batch,fault_window_idx,trend_alarm_idx,static_alarm_idx,lead_time_windows,early_warning
+91,8,8,8,0,False
+92,68,68,68,0,False
+93,58,11,65,54,True
+94,8,8,8,0,False
+95,8,8,8,0,False
+96,58,65,66,1,True
+97,8,8,8,0,False
+98,68,68,69,1,True
+99,8,8,8,0,False
+100,8,8,8,0,False

@@ -1,0 +1,53 @@
+{
+  "n_anomalous_windows_explained": 50,
+  "n_background_windows": 200,
+  "shap_space": "9-dim standardised sensor reconstruction error at window end",
+  "sensor_ranking": [
+    {
+      "rank": 1,
+      "sensor": "Temperature",
+      "mean_abs_shap": 209.66437920332413
+    },
+    {
+      "rank": 2,
+      "sensor": "Aeration rate",
+      "mean_abs_shap": 182.99533044982215
+    },
+    {
+      "rank": 3,
+      "sensor": "pH",
+      "mean_abs_shap": 55.31278169801395
+    },
+    {
+      "rank": 4,
+      "sensor": "Dissolved oxygen",
+      "mean_abs_shap": 36.78376096064758
+    },
+    {
+      "rank": 5,
+      "sensor": "Sugar feed rate",
+      "mean_abs_shap": 35.64558503021684
+    },
+    {
+      "rank": 6,
+      "sensor": "Base flow rate",
+      "mean_abs_shap": 8.320901356657137
+    },
+    {
+      "rank": 7,
+      "sensor": "Heating/cooling water flow",
+      "mean_abs_shap": 7.449535005537386
+    },
+    {
+      "rank": 8,
+      "sensor": "Acid flow rate",
+      "mean_abs_shap": 7.192507858285419
+    },
+    {
+      "rank": 9,
+      "sensor": "Agitator RPM",
+      "mean_abs_shap": 2.102636455761525
+    }
+  ],
+  "interpretation": "Higher mean |SHAP| value indicates that sensor's reconstruction error contributed more to the anomaly score across detected fault windows. This is descriptive attribution \u2014 it shows WHICH sensors are anomalous, not necessarily the physical root cause of the fault."
+}

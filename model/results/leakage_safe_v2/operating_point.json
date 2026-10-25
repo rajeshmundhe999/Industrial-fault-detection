@@ -1,0 +1,29 @@
+{
+  "method": "end_robust_mean_val_max",
+  "threshold": 56.37128829956055,
+  "threshold_policy": "maximum normal validation score (val_max)",
+  "sensor_weights": [
+    0.11375084519386292,
+    0.08542104810476303,
+    0.10518323630094528,
+    0.14583995938301086,
+    0.08420068025588989,
+    0.09665797650814056,
+    0.17958910763263702,
+    0.0965883806347847,
+    0.09276879578828812
+  ],
+  "sensor_names": [
+    "Agitator RPM",
+    "Aeration rate",
+    "Sugar feed rate",
+    "Acid flow rate",
+    "Base flow rate",
+    "Heating/cooling water flow",
+    "Dissolved oxygen",
+    "pH",
+    "Temperature"
+  ],
+  "window_size": 60,
+  "stride": 5
+}

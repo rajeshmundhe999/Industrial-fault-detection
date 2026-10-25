@@ -1,0 +1,28 @@
+batch,sensor,first_ratio,second_ratio
+91,Agitator RPM(RPM:RPM),0.0,0.0
+91,Aeration rate(Fg:L/h),5.1169333,5.1169333
+91,Sugar feed rate(Fs:L/h),13.3365135,13.055266
+91,Acid flow rate(Fa:L/h),0.8284207,0.9458256
+91,Base flow rate(Fb:L/h),2.1386335,2.1132689
+91,Heating/cooling water flow rate(Fc:L/h),0.8298165,0.8167808
+91,Dissolved oxygen concentration(DO2:mg/L),1.7324418,1.8101025
+91,pH(pH:pH),1.5452797,1.7691495
+91,Temperature(T:K),0.82844275,0.8164778
+95,Agitator RPM(RPM:RPM),0.0,0.0
+95,Aeration rate(Fg:L/h),6.448739,6.448739
+95,Sugar feed rate(Fs:L/h),11.383958,11.10573
+95,Acid flow rate(Fa:L/h),0.34861457,0.38376993
+95,Base flow rate(Fb:L/h),1.9007972,1.8857753
+95,Heating/cooling water flow rate(Fc:L/h),0.88858163,0.83518994
+95,Dissolved oxygen concentration(DO2:mg/L),1.6840913,1.8595133
+95,pH(pH:pH),1.3931944,1.7880878
+95,Temperature(T:K),0.85715127,0.7898585
+97,Agitator RPM(RPM:RPM),0.0,0.0
+97,Aeration rate(Fg:L/h),5.260813,5.2608128
+97,Sugar feed rate(Fs:L/h),10.7628,10.535829
+97,Acid flow rate(Fa:L/h),1.2129068,1.2219702
+97,Base flow rate(Fb:L/h),1.0933876,1.19326
+97,Heating/cooling water flow rate(Fc:L/h),1.8356637,1.8887154
+97,Dissolved oxygen concentration(DO2:mg/L),1.0661992,1.2163093
+97,pH(pH:pH),1.167687,1.1889638
+97,Temperature(T:K),1.8571436,1.8335052

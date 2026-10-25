@@ -1,0 +1,55 @@
+{
+  "method": "Integrated Gradients (Sundararajan et al. 2017)",
+  "n_steps": 50,
+  "n_windows_explained": 50,
+  "baseline": "mean normal training window",
+  "sensor_ranking": [
+    {
+      "rank": 1,
+      "sensor": "Temperature",
+      "mean_abs_ig": 291.78794884773373
+    },
+    {
+      "rank": 2,
+      "sensor": "Aeration rate",
+      "mean_abs_ig": 283.5286626441134
+    },
+    {
+      "rank": 3,
+      "sensor": "pH",
+      "mean_abs_ig": 198.11595944078238
+    },
+    {
+      "rank": 4,
+      "sensor": "Sugar feed rate",
+      "mean_abs_ig": 70.47956589676946
+    },
+    {
+      "rank": 5,
+      "sensor": "Base flow rate",
+      "mean_abs_ig": 38.09466115497714
+    },
+    {
+      "rank": 6,
+      "sensor": "Dissolved oxygen",
+      "mean_abs_ig": 21.26160357863421
+    },
+    {
+      "rank": 7,
+      "sensor": "Heating/cooling water flow",
+      "mean_abs_ig": 14.877257777972194
+    },
+    {
+      "rank": 8,
+      "sensor": "Acid flow rate",
+      "mean_abs_ig": 14.850884726058212
+    },
+    {
+      "rank": 9,
+      "sensor": "Agitator RPM",
+      "mean_abs_ig": 0.0
+    }
+  ],
+  "peak_attribution_timestep": 59,
+  "interpretation": "IG attributes the anomaly score directly to each (timestep, sensor) input value by integrating gradients through the GRU network \u2014 not through a hand-crafted score formula. Positive IG = input value INCREASES the anomaly score relative to the normal baseline."
+}

@@ -1,30 +1,48 @@
-@"
+# Python bytecode & cache
 __pycache__/
 *.py[cod]
+*$py.class
 *.pyo
 
+# Environments
 venv/
 .venv/
 env/
+ENV/
 
+# Jupyter
 .ipynb_checkpoints/
 
-*.csv
-*.xlsx
-*.zip
-
-*.pt
-*.pth
-*.ckpt
-model/saved/
-
-*.npy
-
+# Operating System files
+.DS_Store
+Thumbs.db
 *.tmp
 *.log
 
-.DS_Store
-Thumbs.db
-
+# IDE settings
 .vscode/
-"@ | Set-Content ".gitignore"
+.idea/
+
+# Large Raw Datasets (IndPenSim raw CSV is ~2.5 GB)
+data/raw/
+tep/raw/
+
+# Heavy training tensors (can be re-generated with scripts)
+data/processed/X_*.npy
+data/processed/y_*.npy
+tep/processed/
+
+# Heavy PyTorch Model Checkpoints (>50 MB)
+*.pt
+*.pth
+*.ckpt
+model/saved/*.pt
+
+# Allow small dashboard-critical data files and result summaries:
+!data/processed/batch_data.npy
+!data/processed/scaler_*.npy
+!dashboard/sim_precomputed.npz
+!model/results/**/*.csv
+!model/results/**/*.npz
+!tep/results/**/*.csv
+!research_audit/**/*.csv
